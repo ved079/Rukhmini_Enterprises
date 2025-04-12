@@ -1,0 +1,11 @@
+Reached start
+Data: {"name":"Vedant Deokar","email":"vedant@example.com","address":"Madhav Keshav Keshav Society","notes":"","payment":"UPI","cart":[{"id":2,"name":"Low Hydrogen Electrodes","price":950,"quantity":6}]}
+Error: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "user_name" of relation "orders" does not exist
+LINE 1: INSERT INTO orders (user_name, email, address, notes, paymen...
+                            ^
+Reached start
+Data: {"name":"Vedant Deokar","email":"vedant@example.com","address":"Madhav Keshav Keshav Society","notes":"","payment":"UPI","cart":[{"id":2,"name":"Low Hydrogen Electrodes","price":950,"quantity":6}]}
+Order success
+Reached start
+Data: {"name":"Vedant Deokar","email":"vedant@example.com","address":"Madhav Keshav Keshav Society","notes":"","payment":"UPI","cart":[{"id":1,"name":"Mild Steel Electrodes","price":950,"quantity":1},{"id":2,"name":"Low Hydrogen Electrodes","price":950,"quantity":1},{"id":3,"name":"Stainless Steel Electrodes","price":950,"quantity":1},{"id":6,"name":"Nickel Electrodes","price":950,"quantity":1}]}
+Order success
